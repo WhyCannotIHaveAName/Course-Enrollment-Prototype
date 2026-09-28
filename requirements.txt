@@ -1,0 +1,5 @@
+# Runtime dependencies
+fastapi[standard]>=0.141,<0.142
+SQLAlchemy>=2.0,<2.1
+alembic>=1.20,<1.21
+psycopg[binary]>=3.2,<4

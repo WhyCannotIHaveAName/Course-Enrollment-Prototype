@@ -1,0 +1,26 @@
+# Project-local Python environment
+.venv/
+
+# Python-generated files
+__pycache__/
+*.py[cod]
+
+# Test and code-quality caches
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local configuration and secrets
+.env
+
+# Local database files (the project database will be PostgreSQL)
+*.db
+*.sqlite
+*.sqlite3
+
+# Editor and operating-system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
